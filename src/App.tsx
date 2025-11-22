@@ -1,3 +1,4 @@
+import Introduction from './components/Introduction/Introduction';
 import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider } from './components/ThemeProvider';
 
@@ -6,16 +7,14 @@ const App = () => {
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <Navbar />
 
-      <main className="max-w-4xl mx-auto px-4 lg:px-0">
-        <section id="about" className="min-h-screen flex flex-col justify-center">
-          <h1 className="text-5xl lg:text-6xl font-bold text-text-light mb-4">
-            Hi, I'm Your Name.
-          </h1>
-          <p className="text-lg text-text-light/70">
-            I build things for the web.
-          </p>
-        </section>
+      <main className="max-w-5xl mx-auto px-4 lg:px-0 ">
+        <Introduction />
 
+        <section id="about" className="min-h-screen">
+          <h2 className="text-3xl font-semibold mb-6 text-text-light">
+            01. About
+          </h2>
+        </section>
         <section id="experience" className="min-h-screen">
           <h2 className="text-3xl font-semibold mb-6 text-text-light">
             02. Experience
