@@ -1,3 +1,4 @@
+import About from './components/About/About';
 import Introduction from './components/Introduction/Introduction';
 import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider } from './components/ThemeProvider';
@@ -10,11 +11,12 @@ const App = () => {
       <main className="max-w-5xl mx-auto px-4 lg:px-0 ">
         <Introduction />
 
-        <section id="about" className="min-h-screen">
+        {/* <section id="about" className="min-h-screen">
           <h2 className="text-3xl font-semibold mb-6 text-text-light">
             01. About
           </h2>
-        </section>
+        </section> */}
+          <About/>
         <section id="experience" className="min-h-screen">
           <h2 className="text-3xl font-semibold mb-6 text-text-light">
             02. Experience
