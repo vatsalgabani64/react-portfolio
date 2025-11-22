@@ -11,10 +11,12 @@ const Navbar = () => {
         direction === "down" ? "-translate-y-full" : "translate-y-0"
       }`}
     >
-      <div className="text-xl font-semibold">VG</div>
+      <a href="#introduction" className="text-xl font-semibold cursor-pointer">
+        VG
+      </a>
 
       <nav>
-        <ul className="flex items-center gap-12">
+        <ul className="flex items-center gap-10">
           {navbarItems.map((item) => (
             <li key={item.id}>
               <a

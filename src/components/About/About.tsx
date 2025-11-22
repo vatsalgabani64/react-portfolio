@@ -16,7 +16,7 @@ const About = () => {
       {/* Description */}
       <div className=" space-y-4 text-foreground/70 leading-relaxed text-base sm:text-lg">
         {description.split("\n").map((para, index) => (
-          <p key={index}>{para.trim()}</p>
+          <p key={index}>- {para.trim()}</p>
         ))}
       </div>
 
@@ -28,7 +28,7 @@ const About = () => {
             className="border border-foreground/10 bg-background/40 backdrop-blur-md"
           >
             <CardContent className="py-6">
-              <p className="font-mono text-sm mb-4 text-center">
+              <p className="font-mono text-xl mb-6 text-center">
                 {category.title}
               </p>
 
