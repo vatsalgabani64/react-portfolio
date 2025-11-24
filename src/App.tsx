@@ -11,7 +11,7 @@ const App = () => {
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <Navbar />
 
-      <main className="max-w-5xl mx-auto px-4 lg:px-0 ">
+      <main className="max-w-6xl mx-auto px-4 lg:px-0 ">
         <Introduction />
 
         <About/>

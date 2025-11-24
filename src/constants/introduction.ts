@@ -1,9 +1,11 @@
+import personalImg from "../assets/introduction/photo.jpg";
 import { IconType } from "react-icons";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export interface IPersonalInfo {
   name: string;
   resume: string;
+  profileImage: string;
   mailId: string;
   social: {
     name: string;
@@ -19,6 +21,7 @@ export interface IPersonalInfo {
 
 export const PERSONAL_INFO: IPersonalInfo = {
   name: "Vatsal Gabani",
+  profileImage: personalImg,
   resume: "https://drive.google.com/file/d/19kCp9g-V8W2uUkVEGrC14UJRTYPQDp3N/view?usp=sharing",
   mailId: "gabanivatsal17@gmail.com",
   social: [
