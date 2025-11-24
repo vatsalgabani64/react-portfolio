@@ -64,7 +64,7 @@ const Experience = () => {
                 className="flex gap-3 text-foreground/70 leading-relaxed"
               >
                 <span className="text-accent">▹</span>
-                - {point}
+                {point}
               </li>
             ))}
           </ul>

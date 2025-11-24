@@ -15,7 +15,9 @@ const Projects = () => {
         {PROJECTS.map((project) => (
           <Card
             key={project.title}
-            className="h-full flex flex-col border border-foreground/10 bg-background/40 backdrop-blur-md"
+            className="h-full flex flex-col border border-foreground/10 bg-card 
+             transition-all duration-300 ease-in-out hover:-translate-y-0.5 
+             hover:shadow-xl"
           >
             <CardContent className="p-6 flex flex-col grow space-y-4">
               {/* Image */}

@@ -25,7 +25,7 @@ const About = () => {
         {tech.map((category) => (
           <Card
             key={category.title}
-            className="border border-foreground/10 bg-background/40 backdrop-blur-md"
+            className="border border-foreground/10 bg-card transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-xl"
           >
             <CardContent className="py-6">
               <p className="font-mono text-xl mb-6 text-center">
